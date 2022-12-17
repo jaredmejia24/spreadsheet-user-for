@@ -28,7 +28,7 @@ def controller_users():
         
         requests.post(ENDPOINT_USERS, user_data)
 
-    return {"status": "success", "users": "Users successfully registerd"}
+    return {"status": "success", "users": "users successfully registered"}
 
 @app.route("/v1/users")
 def users():
